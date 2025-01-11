@@ -19,6 +19,13 @@
 .secondary-bg{
 
 }
+.btn-primary1{
+   width: 151px;
+   height: 56px;
+   align-items: center;
+   background-color: rgb(0, 106, 80);
+   
+}
 .btn-primary{
     background-color: #006A50;
     font-size: 20px;
@@ -104,6 +111,7 @@ color: #141414;
 .main{
     max-width: 1280px;
     margin:o auto ;
+    gap: 80px;
 }
 main section{
     margin-top: 80px;
@@ -156,4 +164,114 @@ border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 5px;
 
+}
+
+
+/* news */
+
+.recent-news{
+    width: 1280px;
+    background-color:rgb(255, 255, 255) ;
+    gap: 20px;
+
+}
+.news-items{
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-between; */
+    /* padding: 10px; */
+
+  
+}
+
+.news-items1{
+    display: flex;
+  
+}
+.news-content{
+    /* display: flex; */
+}
+.recent-news1{
+    display: flex;
+    text-align: left;
+    gap: 10px;
+}
+
+/* donate */
+.description-donate{
+    text-align: center;
+
+}
+
+.card-element{
+    width:240px ;
+    height: 128px;
+   border-radius: 20px;
+background-color: 
+rgba(14, 14, 14, 0.15);
+  align-items: center;
+  display: flex;
+}
+.card-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.donate-card{
+    gap: 0px;
+}
+
+ 
+ .card-element{
+    text-align: center;
+    justify-content: center;
+    background-color:
+    rgba(14, 14, 14, 0.15);
+   width: 240px;
+   height: 128px
+   
+   
+ }
+ .donate-title{
+    text-align: center;
+ }
+.input-box{
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding:20px 1200px 20px 40px ;
+  gap: 20px;
+
+
+}
+.form{
+    
+}
+
+.email-box{
+    width:600px ;
+    height: 55px;
+
+}
+.subcribe{
+    display: flex;
+    justify-content: none;
+}
+
+.subcribe-box{
+    background-color: rgb(198, 228, 214);
+    border-radius: 24px;
+    width:1280px;
+    height:325px;
+    align-items: center;
+    padding:80px 100px 80px 100px ;
+
+}
+
+/* footer? */
+.footer{
+   /* padding:  50px 160px 50px 160px; */
+   width: 1600px;
+   height: 226px;
+   text-align: center;
 }
