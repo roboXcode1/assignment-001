@@ -16,13 +16,27 @@
 
 /* nav styles */
 
-.secondary-bg{
-
+.color1{
+    background-color:rgb(84, 144, 245);
+    font-size: 20px;
+    /* border: none; */
+    padding: 10px 15px;
+    border-radius: 8px;
 }
+
+.color3{
+    background-color:rgb(255, 194, 57);
+    font-size: 20px;
+    /* border: none; */
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
 .btn-primary1{
    width: 151px;
    height: 56px;
    align-items: center;
+   margin-right: 30px;
    background-color: rgb(0, 106, 80);
    
 }
@@ -59,10 +73,11 @@ nav li{
 }
 .sing-color{
  color:#006A50;
- border-bottom: 5px;
- border-color: aqua;
+ border-radius: 8px;
+ border: 1px solid rgba(14, 14, 14, 0.493);
  padding:5px 5px ;
- background-color: aqua; 
+ color: aqua; 
+ 
 }
 
 /* banner-style */
@@ -85,17 +100,28 @@ nav li{
     /* color: aquamarine; */
     display:flex;
     justify-content: space-between;
-    margin: 0px 100px;
+    /* margin: 0px 100px; */
+    width: 1280px;
+    height: 360px;
     background-color: aquamarine;
     border-radius: 25px;
+    padding: 80px 100px 80px 100px;
   
 
 
 }
+.about-item{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    gap: 5px;
+
+}
+.abot-item{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
 
 .section-tittle{
-font-size: 40px;
-font-weight: 700;
+font-size:40px;
+font-weight: 600;
 color: #141414;
 }
 .sectiom-description{
@@ -217,10 +243,11 @@ rgba(14, 14, 14, 0.15);
     justify-content: center;
     gap: 10px;
 }
-.donate-card{
-    gap: 0px;
-}
 
+.donate-card{
+    gap: 30px;
+ justify-content: center;
+}
  
  .card-element{
     text-align: center;
@@ -239,18 +266,21 @@ rgba(14, 14, 14, 0.15);
   margin: auto;
   justify-content: center;
   align-items: center;
-  padding:20px 1200px 20px 40px ;
+  padding:20px 800px 20px 40px ;
   gap: 20px;
 
 
 }
-.form{
-    
+.form-btn{
+ /* align-items: center; */
+ text-align: center;
+ justify-content: center;
 }
 
 .email-box{
-    width:600px ;
+    width:1000px ;
     height: 55px;
+    margin: auto;
 
 }
 .subcribe{
