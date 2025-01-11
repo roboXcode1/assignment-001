@@ -7,6 +7,13 @@
   font-variation-settings: "wdth" 100;
 }
 
+/* header/ */
+.header{
+    background-image:url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    size: 5px;
+}
+
 /* nav styles */
 
 .secondary-bg{
@@ -87,7 +94,9 @@ color: #141414;
 .sectiom-description{
 
 }
-
+.text-center{
+    text-align: center
+}
 
 /* header */
 
@@ -95,6 +104,10 @@ color: #141414;
 .main{
     max-width: 1280px;
     margin:o auto ;
+}
+main section{
+    margin-top: 80px;
+    margin-bottom: 120px;
 }
 
 /* about-style */
@@ -104,6 +117,7 @@ color: #141414;
 .about-bd{
     padding: 80px ;
     /* text-align: center; */
+    background-image: url();
     
 }
 .item-tittle{
@@ -112,4 +126,34 @@ color: #141414;
 .about-itmes{
     display: flex;
     justify-content: space-around;
+}
+
+
+/* skills-section styles */
+.skils-container{
+    display: flex;
+    justify-content: space-around;
+    gap:14px ;
+}
+.skill{
+  margin: 0px 24px;
+padding:30px ;
+border-radius: 16px;
+}
+.box-color1{
+  background-color:rgba(84, 144, 245, 0.2) ;
+}
+.box-color2{
+    background-color:rgb(198, 228, 214) ;
+}
+.box-color3{
+    background-color: rgb(247, 235, 207);
+}
+
+.dr-yunns{
+    background-color:rgb(255, 255, 255);
+    width: 1280;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 5px;
+
 }
